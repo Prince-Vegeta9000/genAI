@@ -12,7 +12,7 @@
 
 #What is temperature ?
 
-#First API Call
+# First API Call
 
     - Get Models
         - https://api.openai.com/v1/models This is a get request to get all the models that OPENAPI has.
@@ -23,7 +23,7 @@
         - It requires request body which contains messages array. These array can have an object with the role and content. Role can be user or assistant.
         - Assistant decides the outcome of the request. For example: If i tell an assistant not to reply or reply "I don't have this info" if somebody asks for "Detox".
         _ User gives the input
-        - [First API Call](./index.js)
+        - See [index.js](index.js)
 
     - Image Completion
         - https://api.openai.com/v1/images/generations This is a post request to generate images.
